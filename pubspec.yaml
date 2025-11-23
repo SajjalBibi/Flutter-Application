@@ -1,0 +1,52 @@
+name: babyshophub
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  firebase_core: ^4.0.0  #firese project connect
+  firebase_auth: ^6.0.1 # authentication k liy
+  cloud_firestore: ^6.0.0 # firebase connectivity k liy
+  image_picker: ^1.2.0 #upload img krny k liy
+  firebase_database: ^12.0.1 #firebase se crud k liy
+  carousel_slider: ^5.0.0
+  file_picker: ^10.3.3
+  firebase_storage: ^13.0.4
+  animated_text_kit: ^4.2.2 # Text ko animate karne ke liye
+  flutter_staggered_grid_view: ^0.7.0 # Khubsurat gallery layout ke liye
+  flutter_staggered_animations: ^1.1.1
+  photo_view: ^0.14.0  # Image ko zoom karne ke liye
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.4.1
+  video_player: ^2.9.2  # Video chalaane ke liye
+  youtube_player_flutter: ^9.1.1
+  google_maps_flutter: ^2.5.3
+  intl: ^0.20.2
+  fl_chart: ^0.69.0
+
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - assets/
+  
